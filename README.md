@@ -2,7 +2,7 @@
 
 EGE University EEE 2024-25 Computer Networks 2 Term Project - PGP SECURE EMAIL SYSTEM
 
-Emir Kıvrak 052000000484@ogrenci.ege.edu.tr - Eray Samet Gündüz 052100000607@ogrenci.ege.edu.tr 
+Emir Kıvrak 052000000484@ogrenci.ege.edu.tr -- Eray Samet Gündüz 052100000607@ogrenci.ege.edu.tr 
 
 - Developed and tested on Ubuntu using C++
 
