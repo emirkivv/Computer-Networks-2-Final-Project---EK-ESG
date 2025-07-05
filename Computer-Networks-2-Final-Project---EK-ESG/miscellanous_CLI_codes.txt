@@ -1,0 +1,23 @@
+COMPILE KODLARI
+
+sender için:
+
+g++ sender/sign_and_send.cpp shared/crypto_utils.cpp -o sender/send -lssl -lcrypto
+
+
+receiver için:
+
+g++ receiver/receive_and_verify.cpp shared/crypto_utils.cpp -o receiver/receive -lssl -lcrypto
+
+
+----------
+
+txt dosyası değiştirmek için (tırnakları unutma)
+
+echo " Mesajı buraya gir " > sender/plaintext.txt (veya hangi txt dosyası olacaksa artık)
+
+----------
+
+Dosya içeriği görmek için (.txt veya .pem)
+
+cat sender/plaintext.txt
