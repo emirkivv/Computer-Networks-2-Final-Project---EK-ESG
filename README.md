@@ -22,8 +22,8 @@ Decodes the Base64 content.
 Verifies the signature using the sender's public key.
 Displays the message if the signature is valid.
 
-Sender Compilation
+[Sender Compilation](url)
 g++ sender/sign_and_send.cpp shared/crypto_utils.cpp -o sender/send -lssl -lcrypto
 
-Receiver Compilation
+[Receiver Compilation](url)
 g++ receiver/receive_and_verify.cpp shared/crypto_utils.cpp -o receiver/receive -lssl -lcrypto
